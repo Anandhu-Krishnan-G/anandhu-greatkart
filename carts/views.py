@@ -179,6 +179,7 @@ def cart(request,total=0,quantity=0,cart_items=0):
         'tax':tax,
         'grand_total':grand_total,
     }
+    print(quantity)
     return render(request,'store/cart.html',context)
 
 

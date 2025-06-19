@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'orders',
 ]
 
 MIDDLEWARE = [
@@ -156,3 +157,5 @@ EMAIL_USE_TLS=True
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
+#SECURE_CROSS_ORIGIN_OPENER_POLICY='same-origin-allow-popups'
+#SECURE_CROSS_ORIGIN_OPENER_POLICY = None
